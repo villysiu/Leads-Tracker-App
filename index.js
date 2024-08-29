@@ -1,9 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13/firebase-database.js";
+
+// import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
 import { getDatabase,
          ref,
          push,
          onValue,
-         remove } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+         remove } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
 
 const firebaseConfig = {
 
